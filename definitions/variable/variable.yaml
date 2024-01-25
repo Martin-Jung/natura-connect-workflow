@@ -1,3 +1,89 @@
-- Primary Energy:
-    description: Total primary energy consumption (direct equivalent)
-    unit: EJ/yr
+- Relative Amount of Area Covered:
+    description: Relative amount of area covered by a specific solution relative to the variant.
+    unit: %
+    variant: Total land area
+    group: Value
+
+- Relative Amount of Area Covered:
+    description: Relative amount of area covered by a specific solution relative to the variant.
+    unit: %
+    variant: Total land area within country
+    group: Value
+
+- Relative Amount of Area Covered:
+    description: Relative amount of area covered by a specific solution relative to the variant.
+    unit: %
+    variant: Total land area within bioregion
+    group: Value
+
+- Relative Amount of Area Covered:
+    description: Relative amount of area covered by a specific solution relative to the variant.
+    unit: %
+    variant: Total land area within bioregion
+    group: Value
+
+- Contribution to Mean Target Achievement:
+    description: Relative contribution of area towards adequate biodiversity representation for a region.
+    unit: %
+    variant: Calculated for all biodiversity features
+    group: Value
+
+- Contribution to Mean Target Achievement:
+    description: Relative contribution of area towards adequate biodiversity representation for a region.
+    unit: %
+    variant: Calculated for all biodiversity features of conservation concern (EU RR, Annex III Art 12/17)
+    group: Value
+
+- Contribution to Mean Target Achievement:
+    description: Relative contribution of area towards adequate biodiversity representation for a region.
+    unit: %
+    variant: Calculated for all old-growth forest
+    group: Value
+
+- Trigger Species for Global Biodiversity Relevance:
+    description: Potential number of Key Biodiversity Area (KBA) trigger species occurring in identified sites within a region.
+    unit: species
+    group: Value
+
+- Irreplaciability for Global Biodiversity Relevance:
+    description: (Irreplaceability) of Key Biodiversity Areas that overlap with identified solutions in a given region. 
+    unit: 
+    variant: Alpha diversity
+    group: Value
+
+- Irreplaciability for Global Biodiversity Relevance:
+    description: (Irreplaceability) of Key Biodiversity Areas that overlap with identified solutions in a given region. 
+    unit: 
+    variant: Beta diversity
+    group: Value
+
+- Irreplaciability for Global Biodiversity Relevance:
+    description: (Irreplaceability) of Key Biodiversity Areas that overlap with identified solutions in a given region. 
+    unit: 
+    variant: Gamma diversity
+    group: Value
+
+- Protection Connectivity:
+    description: Average connectivity of identified solutions within a given region.
+    unit: 
+    group: Value
+
+- Potential Ease of Implementation:
+    description: Index of potential ease of implementation of conservation objectives given existing sites and costs 
+    unit: 
+    group: Impact
+
+- Climate refugia covered:
+    description: Average proportion of climatic refugia covered in the solution within a given region. 
+    unit: %
+    group: Value
+
+- Cumulative opportunity costs:
+    description: Sum of opportunity costs across cells changed from urban of productive lands to (semi)-natural land (€) 
+    unit: €
+    group: Impact
+
+- Fulfilled Ecosystem Service Demand:
+    description: Extent to which ES Ddemand is met by ES supply (%) within a given region
+    unit: %
+    group: Value
